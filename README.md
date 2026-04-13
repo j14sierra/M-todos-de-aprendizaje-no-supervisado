@@ -99,7 +99,7 @@ python src/modelo_transporte.py
 ---
 
 ## 📦 Requerimientos del sistema
-
+```
 El proyecto utiliza las siguientes librerías de Python:
 
 pandas>=1.5.0
@@ -111,7 +111,7 @@ También puedes generar este archivo automáticamente con:
 pip freeze > requirements.txt
 
 ## 📁 Estructura del proyecto
-
+```
 ```
 proyecto-transporte-ia/
 │
