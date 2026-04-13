@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 # 1. CARGAR DATOS
 # ============================================
 
-data = pd.read_csv('transporte.csv')
+data = pd.read_csv('data/transporte.csv')
 
 print("📊 Primeros datos:")
 print(data.head())
@@ -48,6 +48,9 @@ plt.title('Método del Codo')
 plt.xlabel('Número de clusters')
 plt.ylabel('Inercia')
 plt.grid()
+# 👇 GUARDAR IMAGEN
+plt.savefig('docs/elbow.png')
+
 plt.show()
 
 print("\n👉 Según el gráfico, elegimos K = 3")
@@ -80,6 +83,10 @@ plt.xlabel('Edad')
 plt.ylabel('Viajes por día')
 plt.title('Segmentación de usuarios')
 plt.grid()
+
+# 👇 GUARDAR IMAGEN
+plt.savefig('docs/scatter.png')
+
 plt.show()
 
 # ============================================
